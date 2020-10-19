@@ -32,6 +32,15 @@ def choose_cave():
     # Else, the player the chose the bad cave.
         # Print a message that dragon kills and eats the player. 
 
+# Define a variable called play_again, assign it a string value of "yes".
+
+# Create a while loop to play until the player inputs "no" or "n" when asked.
+    # Call the function to display the intro.
+    # Declare cave_number and assign the value of the choose_cave function.
+    # Call the check_cave function by passing it the cave_number argument.
+
+    # Use input() to determine if the player wants to play again.  
+
 # Version Numbers
 # v0.0 is all of the program information.
 # v0.1 will import the two required libraries.
@@ -40,4 +49,7 @@ def choose_cave():
 # v0.4 completes the completes the print statements for the check_cave function.
 # v0.5 declares and assigns the friendly_cave variable.
 # v0.6 completes the check for friendly vs. non-friendly dragon in check_cave.
-
+# v0.7 declares the variable to play again, and assigns its value. 
+# v0.8 creates the while loop and the first three statements of the loop.
+# v0.9 checks to see if the player wants to play again or quit.
+# v1.0 is the finish version that exectures correctly with no errors or bugs. 

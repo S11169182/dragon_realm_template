@@ -1,4 +1,4 @@
-# <Program Name>, <Author Name>, <Date> <Time>, <Version>
+# <Dragon Realm>, <Ryan Kelley>, <10/19/20> <2:43PM>, <v0.0>
 
 # Import the library for random numbers. 
 # Import the library for time.

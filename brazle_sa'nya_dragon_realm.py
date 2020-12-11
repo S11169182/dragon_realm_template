@@ -1,4 +1,4 @@
-# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.1>
+# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.3>
 
 import random # Import the library for random numbers. 
 import time # Import the library for time.
@@ -66,4 +66,4 @@ def choose_cave():
 # v0.7 declares the variable to play again, and assigns its value. 
 # v0.8 creates the while loop and the first three statements of the loop.
 # v0.9 checks to see if the player wants to play again or quit.
-# v1.0 is the finish version that exectures correctly with no errors or bugs. 
+# v1.0 is the finish version that exectures correctly with no errors or bugs.

@@ -1,4 +1,4 @@
-# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.3>
+# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.5>
 
 import random # Import the library for random numbers. 
 import time # Import the library for time.
@@ -9,6 +9,7 @@ def display_intro():
     print(""" Hello Adventurers! Hello Adventurer. You will need to fight against the Dragons in the relays. Please do your best and be careful. The task will carry on and will get deeply challenging. \n""")
 
 def choose_cave():
+    cave = "" # Declare a variable named cave initialize it to an EMPTY STRING.
     while cave != "1" and cave != "2":  # (!= means NOT equal. And is a Boolean keyword. The other Boolean keywords are OR and Not)Create a while loop that will as long as cave is NOT equal to 1 and 2.
         cave = input("Which Cave do you want to explore? Choose 1 or 2.\n") # Use input() to allow the player to choose between cave 1 or 2.
 
@@ -27,10 +28,8 @@ def check_cave (chosen_cave) : # Define a function named check_cave that takes c
     time.sleep (3) # Sleep for 2-3 seconds.
 
 
-    return cave
 
-
-    # Declare a variable called friendly_cave and randomly assign it a value of 1 or 2.
+   friendly_cave = random.radint(1, 2) # Declare a variable called friendly_cave and randomly assign it a value of 1 or 2.
 
 
     # Check if the chosen_cave IS EQUAL to the friendly_cave.  Make sure to convert friendly_cave into a str().

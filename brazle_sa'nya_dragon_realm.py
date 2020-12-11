@@ -9,29 +9,25 @@ def display_intro():
     print(""" Hello Adventurers! Hello Adventurer. You will need to fight against the Dragons in the relays. Please do your best and be careful. The task will carry on and will get deeply challenging. \n""")
 
 def choose_cave():
-    cave = "" # Declare a variable named cave, initialize it to an EMPTY STRING.
     while cave != "1" and cave != "2":  # (!= means NOT equal. And is a Boolean keyword. The other Boolean keywords are OR and Not)Create a while loop that will as long as cave is NOT equal to 1 and 2.
         cave = input("Which Cave do you want to explore? Choose 1 or 2.\n") # Use input() to allow the player to choose between cave 1 or 2.
 
-    return cave # Return the cave variable
-def choose_cave():
-    # Declare a variable named cave, initialize it to an EMPTY STRING.
-    # Create a while loop that will as long as cave is NOT equal to 1 and 2.
-        # Use input() to allow the player to choose between cave 1 or 2.
+    return cave # Return the cave variable.
+
+def check_cave (chosen_cave) : # Define a function named check_cave that takes chosen_cave as an argument.
+    print("Traveling past the hills, approaching the caves of the dangerous mountains.\n") #print() a string that describes approaching the cave.
+    time.sleep (3) # Sleep for 2-3 seconds.
+    print("The cave is dark and deep with a big hole as the door ")# print() a string that describes being just outside the cave.
+    time.sleep (3)
+    print("You made it to the two paths, being tired because of fitting all does monster you decided to rest before rushing into one of the caves.\n")
+    time.sleep (3) # Sleep for 2-3 seconds.
+    print("You have choosen your cave, and wondered deep inside it. While walking you can feel the presence of something strong up ahead. Moving towards this trembling feeling, You finally see one of the dragons told in the legend!\n") # print() a string that describes seeing the dragon.
+    time.sleep (3) # Sleep for 2-3 seconds.
+    print(" \n") # print() a string that describes the dragon noticing / seeing you.
+    time.sleep (3) # Sleep for 2-3 seconds.
 
 
-    # Return the cave variable.
-
-
-# Define a function named check_cave that takes chosen_cave as an argument.
-    # print() a string that describes approaching the cave.
-    # Sleep for 2-3 seconds.
-    # print() a string that describes being just outside the cave.
-    # Sleep for 2-3 seconds.
-    # print() a string that describes seeing the dragon.
-    # Sleep for 2-3 seconds.
-    # print() a string that describes the dragon noticing / seeing you.
-    # Sleep for 2-3 seconds.
+    return cave
 
 
     # Declare a variable called friendly_cave and randomly assign it a value of 1 or 2.

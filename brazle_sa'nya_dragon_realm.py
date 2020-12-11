@@ -1,4 +1,4 @@
-# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.8>
+# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.9>
 
 import random # Import the library for random numbers. 
 import time # Import the library for time.
@@ -47,7 +47,7 @@ while play_again == "yes" or play_again == "y" or play_again == "Y": # Create a 
    check_cave(cave_number) # Call the check_cave function by passing it the cave_number argument.
 
 
-    # Use input() to determine if the player wants to play again.  
+    play_again = input ("Do you wish to play again? Please type yes or no then press enter.\n")# Use input() to determine if the player wants to play again.  
 
 
 # Version Numbers

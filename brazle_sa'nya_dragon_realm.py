@@ -1,4 +1,4 @@
-# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.9>
+# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 1.0>
 
 import random # Import the library for random numbers. 
 import time # Import the library for time.
@@ -29,10 +29,8 @@ def check_cave (chosen_cave) : # Define a function named check_cave that takes c
 
 
 
-   friendly_cave = random.radint(1, 2) # Declare a variable called friendly_cave and randomly assign it a value of 1 or 2.
-
-
-    if chosen_cave == str (friendly_cave) # Check if the chosen_cave IS EQUAL to the friendly_cave.  Make sure to convert friendly_cave into a str().
+    friendly_cave = random.radint(1, 2) 
+    if chosen_cave == str (friendly_cave)
        print ("# Hello there, I can help you!\n".
    else # Else, the player the chose the bad cave. 
        print ("# Hahaha you thought I could help you? This was my trap to finally eat you!\n". 

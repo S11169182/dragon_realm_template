@@ -38,7 +38,7 @@ def check_cave (chosen_cave) : # Define a function named check_cave that takes c
        print ("# Hahaha you thought I could help you? This was my trap to finally eat you!\n". 
 
 
-# Define a variable called play_again, assign it a string value of "yes".
+play_again = "yes" # Define a variable called play_again, assign it a string value of "yes".
 
 
 # Create a while loop to play until the player inputs "no" or "n" when asked.

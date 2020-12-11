@@ -1,7 +1,7 @@
-# <Dragon Realm>, <Ryan Kelley>, <10/19/20> <2:43PM>, <v0.0>
+# <Dragon Realm>, <Sa'nya Brazle>, <11/10/20> <11:50>, <Version 0.1>
 
-# Import the library for random numbers. 
-# Import the library for time.
+# Import random 
+# Import time 
 
 # Create our first function to display an intro.
 # The intro will be a multi-line comment.
@@ -40,16 +40,3 @@ def choose_cave():
     # Call the check_cave function by passing it the cave_number argument.
 
     # Use input() to determine if the player wants to play again.  
-
-# Version Numbers
-# v0.0 is all of the program information.
-# v0.1 will import the two required libraries.
-# v0.2 completes the function to display the intro. 
-# v0.3 completes the function to choose a cave.
-# v0.4 completes the completes the print statements for the check_cave function.
-# v0.5 declares and assigns the friendly_cave variable.
-# v0.6 completes the check for friendly vs. non-friendly dragon in check_cave.
-# v0.7 declares the variable to play again, and assigns its value. 
-# v0.8 creates the while loop and the first three statements of the loop.
-# v0.9 checks to see if the player wants to play again or quit.
-# v1.0 is the finish version that exectures correctly with no errors or bugs. 

@@ -1,4 +1,4 @@
-# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.6>
+# <Dragon Realm>, <Brazle Sa’nya>, <12/10/20> <11:50>, <Version 0.8>
 
 import random # Import the library for random numbers. 
 import time # Import the library for time.
@@ -41,10 +41,10 @@ def check_cave (chosen_cave) : # Define a function named check_cave that takes c
 play_again = "yes" # Define a variable called play_again, assign it a string value of "yes".
 
 
-# Create a while loop to play until the player inputs "no" or "n" when asked.
-    # Call the function to display the intro.
-    # Declare cave_number and assign the value of the choose_cave function.
-    # Call the check_cave function by passing it the cave_number argument.
+while play_again == "yes" or play_again == "y" or play_again == "Y": # Create a while loop to play until the player inputs "no" or "n" when asked.
+    display_intro() # Call the function to display the intro.
+   cave_number = choose_cave() # Declare cave_number and assign the value of the choose_cave function.
+   check_cave(cave_number) # Call the check_cave function by passing it the cave_number argument.
 
 
     # Use input() to determine if the player wants to play again.  
